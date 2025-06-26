@@ -7,6 +7,9 @@ This project uses a Jupyter Notebook to extract and analyze real-time weather an
 - Auto-generated visual comparisons for multiple cities
 - Visualizes metrics with labeled, unit-based bar plots
 - Fully implemented in Python with pandas, requests, seaborn, and matplotlib
+- 🗃️ Converts live CSV data to a local SQLite database (`weather_aqi.db`)
+- 📥 Supports SQL queries for filtering and historical analysis
+
 
 ## 📊 Technologies Used
 - Python 3
@@ -16,9 +19,9 @@ This project uses a Jupyter Notebook to extract and analyze real-time weather an
 - Optional: BeautifulSoup (for scraping AQI)
 
 ## 🚀 Future Improvements
-- Real AQI scraping from official sources
 - Fahrenheit vs Celsius toggle
-- CSV export or time-series tracking
+- Schedule updates to the database
+- Connect this database to a dashboard (e.g., using Streamlit or Plotly Dash)
 
 ## 📁 How to Use
 1. Clone the repo:
